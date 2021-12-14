@@ -780,13 +780,20 @@ img{
 
 /*==================== REEEL ====================*/
 .reel__container{
-    overflow: initial;
-    display: block;
+    height: 0;
+	overflow: hidden;
+	padding-bottom: 30%;
+	padding-top: 30px;
+	position: relative;
 }
 
 .reel__iframe{
     border-radius: .5rem;
-    justify-content: center;
+    height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 /*==================== PORTFOLIO ====================*/
