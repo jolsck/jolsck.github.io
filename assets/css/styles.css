@@ -118,6 +118,7 @@ body{
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
+    overflow-x:hidden;
     /* padding-left: 5%;
     padding-right: 5%; */
 }
@@ -1447,4 +1448,12 @@ img{
     color: var(--text-color);   
 }
 
-
+.column {
+    
+    float: right;
+    width: 50%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+  }
+  
